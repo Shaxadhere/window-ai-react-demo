@@ -35,6 +35,15 @@ const RawDemo = () => {
         textAlign: "left",
       }}
     >
+      <a
+        target="_blank"
+        class=""
+        href="https://chrome.google.com/webstore/detail/window-ai/cbhbgmdpcoelfdoihppookkijpmgahag"
+      >
+        <button class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 outline-offset-2 transition active:transition-none font-semibold bg-indigo-9 hover:bg-indigo-11 text-white text-md w-full h-full">
+          Get the extension
+        </button>
+      </a>
       <div>loading:{JSON.stringify(loading)}</div>
       <div>Error:{JSON.stringify(error)}</div>
       <div>isWindowAIInstalled:{JSON.stringify(isWindowAIInstalled)}</div>

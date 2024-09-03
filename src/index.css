@@ -66,3 +66,73 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 0.5rem; /* Adjust this value if you need a different spacing */
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-md {
+  border-radius: 0.375rem; /* Medium border radius */
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.outline-offset-2 {
+  outline-offset: 2px;
+}
+
+.transition {
+  transition: all 0.2s ease-in-out;
+}
+
+.active\:transition-none {
+  transition: none;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.bg-indigo-9 {
+  background-color: #4c51bf; /* Indigo shade 9 */
+}
+
+.hover\:bg-indigo-11:hover {
+  background-color: #3730a3; /* Indigo shade 11 on hover */
+}
+
+.text-white {
+  color: white;
+}
+
+.text-md {
+  font-size: 1rem; /* Adjust according to your design */
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
