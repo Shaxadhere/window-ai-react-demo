@@ -42,7 +42,7 @@ const Chat = () => {
           </div>
         ))}
         {currentMessage && (
-          <div className={`chat-message`}>{currentMessage}</div>
+          <div className={`chat-message ai`}>{currentMessage}</div>
         )}
       </div>
       <div className="chat-footer">
